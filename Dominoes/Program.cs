@@ -11,6 +11,7 @@
         this.d1=d1; this.d2=d2;
     }
 
+    //Se agrega int Operator para tener 1 resultado
     public static int operator +(Dominoes a, Dominoes b)
     {
         int suma=a.d1+a.d2+b.d1+b.d2;
@@ -22,5 +23,6 @@
         Dominoes d2=new Dominoes(2,3);
         int total= d1+d2;
         Console.WriteLine(total);
+        //Comentario para hacer commit
     }
 }
